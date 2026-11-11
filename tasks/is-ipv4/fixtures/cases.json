@@ -1,0 +1,170 @@
+[
+  {
+    "args": [
+      "0.0.0.0"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "127.0.0.1"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "192.168.1.1"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "255.255.255.255"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "256.0.0.1"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "1.2.3"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "1.2.3.4.5"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "01.2.3.4"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "1.2.3.04"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "00.0.0.0"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "1..2.3"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      ".1.2.3"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "1.2.3."
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      ""
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "1.2.3.4 "
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      " 1.2.3.4"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "1.2.3.a"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "1.2.3.-4"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "1.2.3.+4"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "1.2.3.1e2"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "10.0.0.255"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "10.0.0.300"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "999.1.1.1"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "1.2.3.4\n"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "\u0661.2.3.4"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "1.2.3.0x1"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "100.200.250.199"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "1.2.3.4/24"
+    ],
+    "expected": false
+  }
+]
