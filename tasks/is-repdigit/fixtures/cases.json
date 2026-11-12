@@ -1,0 +1,200 @@
+[
+  {
+    "args": [
+      0
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      1
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      5
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      9
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      10
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      11
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      12
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      22
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      101
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      110
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      112
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      121
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      222
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      1121
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      1211
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      7777
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      99999
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      12345
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      100000
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      333333333
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      true
+    ],
+    "error": "TypeError"
+  },
+  {
+    "args": [
+      11.0
+    ],
+    "error": "TypeError"
+  },
+  {
+    "args": [
+      "11"
+    ],
+    "error": "TypeError"
+  },
+  {
+    "args": [
+      -1
+    ],
+    "error": "ValueError"
+  },
+  {
+    "args": [
+      1000000000000000001
+    ],
+    "error": "ValueError"
+  },
+  {
+    "args": [
+      1000000000000000000
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      999999999999999999
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      111111111111111111
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      999999999999999999
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      777777777777777778
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      177777777777777777
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      576460752303423488
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      555555555555555555
+    ],
+    "expected": true
+  }
+]
