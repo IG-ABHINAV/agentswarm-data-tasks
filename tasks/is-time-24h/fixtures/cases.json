@@ -1,0 +1,182 @@
+[
+  {
+    "args": [
+      "00:00"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "23:59"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "12:30"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "09:05"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "19:59"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "20:00"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "10:00"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "24:00"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "23:60"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "29:00"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "9:05"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "09:5"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "0905"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "09.05"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "09-05"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "09:05:00"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      ""
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      " 09:05"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "09:05 "
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "09:05\n"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "\uff10\uff19:05"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "0\u0669:05"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "1a:00"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "12:3x"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "-1:00"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "09 05"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "7:30 PM"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "12:00am"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "99:99"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "13:00"
+    ],
+    "expected": true
+  }
+]

@@ -1,0 +1,158 @@
+[
+  {
+    "args": [
+      "12345"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "00000"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "99999"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "12345-6789"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "00501-0001"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "1234"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "123456"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "123456789"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "12345-678"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "12345-67890"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "12345 6789"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "12345_6789"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "12345-"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "-6789"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      ""
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      " 12345"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "12345 "
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "12345\n"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "\uff11\uff12\uff13\uff14\uff15"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "1\u0662345"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "1234a"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "12345-678a"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "12-345"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "12345--6789"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "ABCDE"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "12345-6789-0000"
+    ],
+    "expected": false
+  }
+]
