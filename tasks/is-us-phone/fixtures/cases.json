@@ -1,0 +1,176 @@
+[
+  {
+    "args": [
+      "555-123-4567"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "000-000-0000"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "999-999-9999"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "212-555-0100"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "5551234567"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "555 123 4567"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "555.123.4567"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "(555) 123-4567"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "(555)-123-4567"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "555-1234-567"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "55-123-4567"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "5555-123-4567"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "555-123-456"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "555-123-45678"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "555--123-4567"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "555-123-4567-"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "-555-123-4567"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      ""
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "  "
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "555-123-4567\n"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      " 555-123-4567"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "555-123-4567 "
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "+1-555-123-4567"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "1-555-123-4567"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "555-abc-4567"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "\uff15\uff15\uff15-123-4567"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "55\u0665-123-4567"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "555_123_4567"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "555-123-4567x12"
+    ],
+    "expected": false
+  }
+]
