@@ -1,0 +1,146 @@
+[
+  {
+    "args": [
+      "00:1a:2b:3c:4d:5e"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "00-1A-2B-3C-4D-5E"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "FF:FF:FF:FF:FF:FF"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "aA:bB:cC:dD:eE:fF"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "00:00:00:00:00:00"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "00:1a:2b:3c:4d"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "00:1a:2b:3c:4d:5e:6f"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "00:1a-2b:3c:4d:5e"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "00-1a-2b-3c-4d:5e"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "001a2b3c4d5e"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "00.1a.2b.3c.4d.5e"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "0:1a:2b:3c:4d:5e"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "000:1a:2b:3c:4d:5e"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "00:1a:2b:3c:4d:5g"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      ""
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "00:1a:2b:3c:4d:5e "
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      " 00:1a:2b:3c:4d:5e"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "00:1a:2b:3c:4d:5e\n"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "00::1a:2b:3c:4d:5e"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "00 1a 2b 3c 4d 5e"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "\uff10\uff10:1a:2b:3c:4d:5e"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "0x:1a:2b:3c:4d:5e"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "00:1A:2b:3C:4d:5E"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "12-34-56-78-9a-bc"
+    ],
+    "expected": true
+  }
+]

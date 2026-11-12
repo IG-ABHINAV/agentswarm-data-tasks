@@ -1,0 +1,122 @@
+[
+  {
+    "args": [
+      "123e4567-e89b-12d3-a456-426614174000"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "00000000-0000-0000-0000-000000000000"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "aBcDeF01-2345-6789-abcd-EF0123456789"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "123e4567e89b12d3a456426614174000"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "{123e4567-e89b-12d3-a456-426614174000}"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "123e4567-e89b-12d3-a456-42661417400"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "123e4567-e89b-12d3-a456-4266141740000"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "123e4567-e89b-12d3-a456_426614174000"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "123e456-7e89b-12d3-a456-426614174000"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "123e4567-e89b-12d3-a4564-26614174000"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "123e4567-e89b-12d3-a456-42661417400g"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      ""
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      " 123e4567-e89b-12d3-a456-426614174000"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "123e4567-e89b-12d3-a456-426614174000 "
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "123e4567-e89b-12d3-a456-426614174000\n"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "urn:uuid:123e4567-e89b-12d3-a456-426614174000"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "123e4567--e89b-12d3-a456-426614174000"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "123e4567-e89b-12d3-a456-426614174000-"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "\uff11\uff12\uff13e4567-e89b-12d3-a456-426614174000"
+    ],
+    "expected": false
+  }
+]
