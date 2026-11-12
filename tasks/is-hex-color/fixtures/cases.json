@@ -1,0 +1,152 @@
+[
+  {
+    "args": [
+      "#fff"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "#FFF"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "#000000"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "#1a2B3c"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "#abc"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "#ABCDEF"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "fff"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "#ff"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "#ffff"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "#fffff"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "#fffffff"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "#ffffffff"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "#ggg"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "#12345g"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      ""
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "#"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      " #fff"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "#fff "
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "#fff\n"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "##fff"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "#\uff10\uff10\uff10"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "#0x0"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "#-12"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "#1a2b3c4d"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "#AbC"
+    ],
+    "expected": true
+  }
+]
