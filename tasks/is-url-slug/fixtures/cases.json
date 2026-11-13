@@ -1,0 +1,194 @@
+[
+  {
+    "args": [
+      "hello"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "hello-world"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "a1-b2-c3"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "2024-recap"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "x"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "a"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "0"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "abc123"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "my-first-post"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      ""
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "Hello"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "HELLO"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "hello_world"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "hello--world"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "-hello"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "hello-"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "-"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "hello world"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "h\u00e9llo"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "hello.world"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "hello/world"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      " hello"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "hello "
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "hello\n"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "caf\u00e9"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "a--b"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "ab-"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "A-b"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "post-\u0661"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "\u017fh"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "hello-World"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "\uff41bc"
+    ],
+    "expected": false
+  }
+]
