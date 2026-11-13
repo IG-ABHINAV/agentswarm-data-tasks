@@ -1,0 +1,188 @@
+[
+  {
+    "args": [
+      0
+    ],
+    "expected": 0
+  },
+  {
+    "args": [
+      1
+    ],
+    "expected": 0
+  },
+  {
+    "args": [
+      7
+    ],
+    "expected": 0
+  },
+  {
+    "args": [
+      9
+    ],
+    "expected": 0
+  },
+  {
+    "args": [
+      10
+    ],
+    "expected": 1
+  },
+  {
+    "args": [
+      19
+    ],
+    "expected": 8
+  },
+  {
+    "args": [
+      90
+    ],
+    "expected": 9
+  },
+  {
+    "args": [
+      99
+    ],
+    "expected": 0
+  },
+  {
+    "args": [
+      101
+    ],
+    "expected": 1
+  },
+  {
+    "args": [
+      1234
+    ],
+    "expected": 3
+  },
+  {
+    "args": [
+      4321
+    ],
+    "expected": 3
+  },
+  {
+    "args": [
+      5555
+    ],
+    "expected": 0
+  },
+  {
+    "args": [
+      9091
+    ],
+    "expected": 9
+  },
+  {
+    "args": [
+      1000000
+    ],
+    "expected": 1
+  },
+  {
+    "args": [
+      8000000008
+    ],
+    "expected": 8
+  },
+  {
+    "args": [
+      123456789
+    ],
+    "expected": 8
+  },
+  {
+    "args": [
+      111111111
+    ],
+    "expected": 0
+  },
+  {
+    "args": [
+      2020202
+    ],
+    "expected": 2
+  },
+  {
+    "args": [
+      true
+    ],
+    "error": "TypeError"
+  },
+  {
+    "args": [
+      12.0
+    ],
+    "error": "TypeError"
+  },
+  {
+    "args": [
+      "12"
+    ],
+    "error": "TypeError"
+  },
+  {
+    "args": [
+      -12
+    ],
+    "error": "ValueError"
+  },
+  {
+    "args": [
+      1000000000000000001
+    ],
+    "error": "ValueError"
+  },
+  {
+    "args": [
+      1000000000000000000
+    ],
+    "expected": 1
+  },
+  {
+    "args": [
+      999999999999999999
+    ],
+    "expected": 0
+  },
+  {
+    "args": [
+      900000000000000001
+    ],
+    "expected": 9
+  },
+  {
+    "args": [
+      800000000000000000
+    ],
+    "expected": 8
+  },
+  {
+    "args": [
+      123456789012345678
+    ],
+    "expected": 9
+  },
+  {
+    "args": [
+      576460752303423488
+    ],
+    "expected": 8
+  },
+  {
+    "args": [
+      111111111111111112
+    ],
+    "expected": 1
+  },
+  {
+    "args": [
+      555555555455555555
+    ],
+    "expected": 1
+  }
+]
